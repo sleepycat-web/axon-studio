@@ -6,7 +6,7 @@ import compress from 'astro-compress';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://axonstudio.tech',
-  output: 'server', // Use 'server' to enable server-side rendering
+  // output: 'server', // Use 'server' to enable server-side rendering
   experimental: {
     viewTransitions: true,
   },
