@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
+    "vercel-build": "npm run build",
+    "start": "node server.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -12,10 +13,12 @@
   "dependencies": {
     "@alpinejs/collapse": "3.12.3",
     "@astrojs/tailwind": "4.0.0",
+    "@astrojs/vercel": "^7.7.0",
     "@fontsource/inter": "5.0.8",
     "alpinejs": "^3.14.0",
-    "astro": "2.10.13",
+    "astro": "^4.10.2",
     "astro-compress": "^2.2.28",
+    "body-parser": "^1.20.2",
     "caniuse-lite": "^1.0.30001634",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
