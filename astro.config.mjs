@@ -6,10 +6,7 @@ import vercel from '@astrojs/vercel/serverless';
 // https://astro.build/config
 export default defineConfig({
   adapter: vercel(),
-  site: 'https://axonstudio.tech',
-  output: 'server', // Use 'server' to enable server-side rendering
-  // experimental: {
-  //   viewTransitions: true,
-  // },
+  // site: 'https://axonstudio.tech',
+  output: 'server', 
   integrations: [tailwind(), compress()],
 });
