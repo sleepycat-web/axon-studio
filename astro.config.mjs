@@ -5,6 +5,7 @@ import compress from 'astro-compress';
 // https://astro.build/config
 export default defineConfig({
    site: 'https://sleepycat-web.github.io',
+   base: 'axon-studio',
    integrations: [tailwind(), compress()],
 });
 
