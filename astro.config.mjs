@@ -5,8 +5,7 @@ import vercel from '@astrojs/vercel/serverless';
 
 // https://astro.build/config
 export default defineConfig({
-  adapter: vercel(),
-  // site: 'https://axonstudio.tech',
-  output: 'server', 
-  integrations: [tailwind(), compress()],
+   site: 'https://sleepycat-web.github.io',
+   integrations: [tailwind(), compress()],
 });
+
